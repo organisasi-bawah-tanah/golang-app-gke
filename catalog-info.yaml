@@ -1,0 +1,10 @@
+---
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: golang-app-gke
+  annotations:
+    github.com/project-slug: organisasi-bawah-tanah/golang-app-gke
+spec:
+  type: other
+  lifecycle: unknown
