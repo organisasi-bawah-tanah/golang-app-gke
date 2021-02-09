@@ -1,0 +1,14 @@
+
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: "golang-hello-app"
+  description: "hello-app"
+  annotations:
+    github.com/project-slug: organisasi-bawah-tanah/golang-app-gke
+    backstage.io/techdocs-ref: github:https://github.com/organisasi-bawah-tanah/golang-app-gke
+    backstage.io/kubernetes-id: helloweb
+spec:
+  type: service
+  lifecycle: experimental
+  owner: organisasi-bawah-tanah
